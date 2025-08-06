@@ -18,11 +18,3 @@ maze.init_player()
 p = maze.get_init_pos_player()
 
 maze.mov_player(p)
-if maze.solve_with_stack():
-    print("Caminho até o prêmio encontrado com sucesso!")
-else:
-    print("Não foi possível encontrar o prêmio.")
-
-time.sleep(5)
-
-
